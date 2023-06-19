@@ -16,3 +16,11 @@ mark {
   color: #5b8cec;
   background-color: transparent;
 }
+
+button {
+  transition-duration: 0.2s;
+}
+
+button:hover {
+  background: #406dc5;
+}

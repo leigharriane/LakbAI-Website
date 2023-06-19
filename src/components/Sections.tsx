@@ -5,7 +5,7 @@ interface Props {
 	desc: string;
 	pic: StaticImageData;
 	svgitem: JSX.Element;
-	type:string;
+	type: string;
 }
 
 const Sections = ({ title, desc, pic, svgitem, type }: Props) => {
