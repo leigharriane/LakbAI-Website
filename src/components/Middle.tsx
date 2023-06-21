@@ -14,7 +14,7 @@ const Middle = () => {
 				title="Personalized Itinerary Generation"
 				desc="Unlock the power of personalized travel planning. Our app harnesses the magic of AI to create bespoke itineraries tailored to your unique preferences. From adventure seekers to culture enthusiasts, every journey is crafted to match your travel style, ensuring unforgettable experiences from start to finish."
 				pic={firstimg}
-				type="flex-row"
+				type="flex-col sm:flex-row"
 			/>
 			<Sections
 				svgitem={<svg width="42" height="49" viewBox="0 0 42 49" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -26,7 +26,7 @@ const Middle = () => {
 				title="Seamless Itinerary Completion"
 				desc="Let our AI be your travel companion. Our app's intelligent algorithms work tirelessly to complete your itinerary effortlessly. It suggests handpicked activities, must-visit attractions, and hidden gems, transforming your trip into a curated adventure. Sit back, relax, and let our AI guide you towards unforgettable moments."
 				pic={secondimg}
-				type="flex-row-reverse"
+				type="flex-col sm:flex-row-reverse"
 			/>
 			<Sections
 				svgitem={<svg width="43" height="49" viewBox="0 0 43 49" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -38,7 +38,7 @@ const Middle = () => {
 				title="Share Memorable Adventures"
 				desc="Share the excitement with your loved ones. Our app lets you easily share your itinerary with family and friends, allowing them to join in on the journey. Collaborate, exchange ideas, and create unforgettable memories together. With our app's seamless sharing feature, every adventure becomes a shared experience."
 				pic={thirdimg}
-				type="flex-row"
+				type="flex-col sm:flex-row"
 			/>
 		</div>
 	)
